@@ -1,0 +1,86 @@
+.login-container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 40px 50px;
+    background-color: #FFF8DC;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    box-sizing: content-box;
+}
+
+.login-container h1 {
+    font-size: 42px;
+    text-align: left;
+    margin: 10px 0 25px;
+}
+
+.logo {
+    width: 195px;
+    height: 195px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 25px;
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 14px 12px;
+    margin: 0 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 13px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0069d9;
+}
+
+.login-container p {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.login-container a {
+    color: #007bff;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .login-container {
+        width: auto;
+        margin: 40px 20px;
+        padding: 25px;
+    }
+
+    .logo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .login-container h1 {
+        font-size: 36px;
+    }
+}
